@@ -2,7 +2,7 @@
 
 A purpose of this tool is to display the newest Dexcom CGM blood glucose readings on a FitBit device. It's an ad-hoc solution developed to allow a user to be aware of its blood glucose values while the phone is away, but in Dexcom transmitter Bluetooth radius e.g. gym, CrossFit, marathon race etc.
 
-![FitDex Screen](src)
+![FitDex Screen](https://s27.postimg.org/qwnnqe4wz/EE6_C4090-7456-4_C81-9_B10-2_C8_F319_D013_F.jpg)
 
 FitDex utilizes _text-message-over-email_ services and a Dexcom API. The tool will make a request to the Dexcom API to get the latest glucose value on every N seconds and then send a value as an SMS via _text-message-over-email_ service which will be displayed on a FitBit device.
 
