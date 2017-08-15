@@ -12,14 +12,14 @@ It is tested only on Fitbit Charge 2, but it should work on any Fitbit device wh
 
 In order to be able to run this tool one has to:
 1. Have a Dexcom account
-2. Have a Gmail account
+2. Have an Email account
 3. Have a cell phone number from one the listed carriers [[src]](https://20somethingfinance.com/how-to-send-text-messages-sms-via-email-for-free/)
 
 To configure the tool, edit the config.ini file. Replace the username and password values in the _DEXCOM_ section, your email details in the _EMAIL_ section and substitute your 10-digit cell number for _number_ for one of the carriers below (P.S. tested only with T-Mobile and Verizon gateways):
 
 - AT&T: number@txt.att.net
 - T-Mobile: number@tmomail.net)
-- Verizon: number@vtext.com (text-only), number@vzwpix (text + photo)
+- Verizon: number@vtext.com (text-only)
 - Sprint: number@messaging.sprintpcs.com or number@pm.sprint.com
 - Virgin Mobile: number@vmobl.com
 - Tracfone: number@mmst5.tracfone.com
@@ -47,9 +47,11 @@ Notification_Frequency_Seconds = 300
 
 [EMAIL]
 SMS_Gateway = **YOUR_CELL_NUMBER**@**CHOSEN_EMAIL_GATEWAY** ; example: 5555555555@vtext.com
-Gmail_Address = **YOUR_EMAIL**
-Gmail_User = **YOUR_EMAIL_ACCOUNT_USERNAME**
-Gmail_Password = **YOUR_EMAIL_ACCOUNT_PASSWORD**
+Email_Address = **YOUR_EMAIL** ; example: user@gmail.com
+Email_Username = **YOUR_EMAIL_ACCOUNT_USERNAME**  ; example: user
+Email_Password = **YOUR_EMAIL_ACCOUNT_PASSWORD**  ; example: password12345
+SMTP_Server = **YOUR_SMTP_SERVER_ADDRESS**  ; example: 587
+SMTP_Port = **YOUR_SMTP_SERVER_PORT**  ; example: smtp.gmail.com
 ```
 
 ### Run
