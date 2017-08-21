@@ -61,3 +61,8 @@ Open CMD, navigate to the directory where you extracted the FitDex and type:
 `py FitDex.py`
 
 
+### Donate
+
+Donations are welcome if you find this tool useful! Please use the wallet address below to donate:
+```bitcoin
+BTC: 1JfszdofhyQkry6h7JSfbge3J12dUnJ8kP
